@@ -76,8 +76,8 @@ import * as __2$ from "https://cdn.nav.no/beregningsplattform/beregningsplattfor
 
 | Pakke | Versjon |
 |-------|---------|
-| react | 19.3.0 |
-| react-dom | 19.3.0 |
+| react | 19.3.1 |
+| react-dom | 19.3.1 |
 | scheduler | 0.28.0 |
 
 ## Workflow

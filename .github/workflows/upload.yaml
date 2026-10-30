@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@ccd8616d44fd3846e67624a50d5aad6d37bf2d25 # ratchet:step-security/harden-runner@v2.22.1
+        uses: step-security/harden-runner@46b06cea07f9e64621fdf066ba77ac6915163d43 # ratchet:step-security/harden-runner@v2.22.3
         with:
           egress-policy: audit
 
@@ -26,7 +26,7 @@ jobs:
           persist-credentials: false
 
       - name: Upload dependencies to CDN
-        uses: nais/deploy/actions/cdn-upload/v2@d003bddf74ce5b96fa3056ae60bd4b9b3bbc89ef # ratchet:nais/deploy/actions/cdn-upload/v3@v3
+        uses: nais/deploy/actions/cdn-upload/v2@6a9dcd6df697ec2d38edc78cadb0b9acd1232f50 # ratchet:nais/deploy/actions/cdn-upload/v3@v3
         with:
           team: beregningsplattform
           source: ./packages
